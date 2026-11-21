@@ -1,6 +1,6 @@
 # DataBuddy: an Agentic Data Analyst (LlamaIndex)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/data_analyst_agent.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marwann3/llamaindex-data-analyst/blob/main/data_analyst_agent.ipynb)
 
 An agent that answers questions about a CSV file (totals, rankings, filters, charts) by **calling tools instead of guessing numbers**. Built with **LlamaIndex** `AgentWorkflow` and an open-source LLM (Llama 3.3 70B) served through the **Groq** free tier.
 
