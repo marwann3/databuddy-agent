@@ -1,6 +1,6 @@
 # DataBuddy: an Agentic Data Analyst (LlamaIndex)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marwann3/llamaindex-data-analyst/blob/main/data_analyst_agent.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marwann3/databuddy-agent/blob/main/data_analyst_agent.ipynb)
 
 An agent that answers questions about a CSV file (totals, rankings, filters, charts) by **calling tools instead of guessing numbers**. Built with **LlamaIndex** `AgentWorkflow` and an open-source LLM (Llama 3.3 70B) served through the **Groq** free tier.
 
@@ -66,11 +66,6 @@ await agent.run("Which region sells most?", ctx=ctx)
 - `AgentWorkflow` runs the agent loop with native function calling.
 - `Context` gives the agent memory across questions.
 
-## Run it in Google Colab
-
-1. Click the **Open in Colab** badge above.
-2. Get a free API key at [console.groq.com/keys](https://console.groq.com/keys), then add it in Colab: key icon on the left (**Secrets**), new secret named `GROQ_API_KEY`, and turn on *Notebook access*.
-3. **Runtime → Run all**.
 
 The key is read from Colab Secrets and is never stored in the notebook.
 
@@ -81,11 +76,6 @@ The key is read from Colab Secrets and is never stored in the notebook.
 - Show me all orders with more than 13 units in Cairo.
 - Plot revenue by category as a bar chart.
 
-## Files
-
-```
-data_analyst_agent.ipynb   the full task (steps 1 to 5)
-README.md                  this file
 ```
 
 The sample dataset (240 synthetic sales rows) is generated inside the notebook, so nothing needs to be uploaded.
